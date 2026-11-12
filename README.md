@@ -59,6 +59,8 @@ A|一橋大学,大阪大学|高い水準で安定
 
 ## サポート
 
+daigoroutools：https://daigorou-addon.github.io/daigorou-tools/
+
 気に入ったら応援してもらえると励みになります：https://buymeacoffee.com/daigorou
 
 ---
@@ -77,6 +79,8 @@ A web tool that turns your ranking data into a stylish table image, ready to pos
 - 6 languages: 日本語 / English / 한국어 / 简体中文 / 繁體中文 / Español
 - Light / dark mode, works on phones and tablets
 - Everything runs on your device. Nothing is sent anywhere.
+
+daigoroutools：https://daigorou-addon.github.io/daigorou-tools/
 
 Support: https://buymeacoffee.com/daigorou
 
