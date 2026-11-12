@@ -12,7 +12,8 @@
 - 8種類の表のタイプ：A 順位表 / B ティア表 / C 表彰台 / D バーチャート / E カードグリッド / F ピラミッド / G ヒーロー（1位ポスター）/ H ネオン
 - 配色：Green / Blue / Red / Dark
 - 画像サイズ：自動／スマホ縦 9:16（1080×1920）／正方形 1:1（1080×1080）／横長 16:9（1280×720）
-- 14種類のサンプルテーマ（国・都道府県・ラーメン・映画ジャンル・スポーツ・プログラミング言語・ゲーム・動物・食べ物・音楽・大学・寿司・フルーツ・キャラ）
+- 表のタイプごとに値の形（数値・★・S/A/B）と区分の有無を変えたサンプル（7テーマ：ペット・フルーツ・寿司ネタ・プログラミング言語・スポーツ・音楽ジャンル・面積が大きい国）
+- 元に戻す（↶）／やり直す（↷）
 - 作業内容を `.json` で保存・読み込み
 - 表を PNG 画像で保存
 - 6言語対応：日本語 / English / 한국어 / 简体中文 / 繁體中文 / Español
@@ -33,6 +34,8 @@
 フランス,★★★★★,必見
 日本,★★★★☆,人気
 ```
+
+値は数字でも、★やS/A/Bなどの文字でもOKです。区分を入れると、どのタイプでもバッジなどで表示されます。
 
 ティア表（B）は1行に1ティアで、`ティア名|項目,項目,…|説明` の形です（説明は省略可）。行を増やせば D・E・F… 何段でも作れます。
 
@@ -56,8 +59,6 @@ A|一橋大学,大阪大学|高い水準で安定
 
 ## サポート
 
-daigoroutools：https://daigorou-addon.github.io/daigorou-tools/
-
 気に入ったら応援してもらえると励みになります：https://buymeacoffee.com/daigorou
 
 ---
@@ -71,13 +72,11 @@ A web tool that turns your ranking data into a stylish table image, ready to pos
 - Rank anything: countries (with flags), prefectures, or free-form items
 - Values can be non-numeric (S/A/B, ★, ○× …)
 - 8 table types: Ranking table / Tier list / Podium / Bar chart / Card grid / Pyramid / Hero / Neon
-- 4 color themes, 4 image sizes (auto, 9:16, 1:1, 16:9), 14 sample themes
-- Save your work as `.json` and load it back; export the table as PNG
+- 4 color themes, 4 image sizes (auto, 9:16, 1:1, 16:9), 7 sample themes matched to each table type
+- Undo / redo; save your work as `.json` and load it back; export the table as PNG
 - 6 languages: 日本語 / English / 한국어 / 简体中文 / 繁體中文 / Español
 - Light / dark mode, works on phones and tablets
 - Everything runs on your device. Nothing is sent anywhere.
-
-daigoroutools：https://daigorou-addon.github.io/daigorou-tools/
 
 Support: https://buymeacoffee.com/daigorou
 
