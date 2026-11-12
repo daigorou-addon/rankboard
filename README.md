@@ -55,7 +55,9 @@ A|一橋大学,大阪大学|高い水準で安定
 すべての処理はお使いの端末内で行われます。入力したデータやファイルはどこにも送信されません。
 
 ## サポート
+
 daigoroutools：https://daigorou-addon.github.io/daigorou-tools/
+
 気に入ったら応援してもらえると励みになります：https://buymeacoffee.com/daigorou
 
 ---
@@ -76,6 +78,7 @@ A web tool that turns your ranking data into a stylish table image, ready to pos
 - Everything runs on your device. Nothing is sent anywhere.
 
 daigoroutools：https://daigorou-addon.github.io/daigorou-tools/
+
 Support: https://buymeacoffee.com/daigorou
 
 ---
